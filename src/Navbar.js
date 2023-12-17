@@ -8,7 +8,7 @@ export default function Navbar() {
         Team Cartographer
       </Link>
       <ul>
-        <CustomLink to="./pages/About">About</CustomLink>
+        <CustomLink to="/about">About</CustomLink>
       </ul>
     </nav>
   )
