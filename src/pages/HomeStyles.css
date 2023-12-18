@@ -1,20 +1,28 @@
-.Home {
+/* .Home {
   text-align: center;
-}
+} */
 
 .Home-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.landingImage {
+  width: 700px; 
+  height: auto;
+  border-color: aquamarine;
+  border-radius: 5px;
+}
+
+
 .Home-header {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10rgb(50, 50, 50)min);
   color: rgb(0, 0, 0);
 }
 
