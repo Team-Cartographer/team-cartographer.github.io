@@ -12,7 +12,7 @@ export default function Navbar() {
       <ul>
         <a href="https://github.com/Team-Cartographer">GitHub</a>
         <a href="https://www.linkedin.com/company/team-cartographer/">LinkedIn</a>
-        <CustomLink to="/team-cartographer-site/about">About</CustomLink>
+        <CustomLink to="/about">About</CustomLink>
         {/* FIXME: implement this <a href="/contact">Contact Us</a> */}
         <a href="mailto:teamcartographer@gmail.com">Contact Us</a>
       </ul>
