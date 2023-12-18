@@ -8,7 +8,7 @@ export default function About() {
       <h1 className="about-title">About Team Cartographer</h1>
 
       <p>
-      Team Cartographer is a group of high school and college students driven to apply knowledge in the STEM field and inspire future generations. 
+      <b>Team Cartographer</b> is a group of high school and college students driven to apply knowledge in the STEM field and inspire future generations. 
       </p>
 
       <p>
