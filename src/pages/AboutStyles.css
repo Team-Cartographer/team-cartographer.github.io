@@ -1,24 +1,47 @@
-.Home {
-    text-align: center;
-  }
   
-  .Home-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  .Home-header {
-    background-color: #ffffff;
-    min-height: 100vh;
-    display: flex;
+  .about-container {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;      /* Centers text content */
+    display: flex;           /* Enables flexbox */
+    justify-content: center; /* Centers flex items horizontally */
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: rgb(0, 0, 0);
+    max-width: 800px; /* Adjust this value as needed */
+    margin: 0 auto;   /* Centers the container */
+    padding: 20px;    
+    line-height: 1.25;
+  }
+
+  .image-container {
+    display: flex;     /* Use flexbox to layout children */
+    justify-content: center; /* Center the images in the container */
+    align-items: center; /* Align images in the middle */
   }
   
-  .Home-link {
-    color: #61dafb;
+  .image-container img {
+    padding: 15px;
+    border-radius: 25px;
+    margin: 0 10px; /* Add some space between the images */
+    width: 50%;     /* Adjust the width as needed */
   }
+
+  @media (max-width: 600px) { /* Adjust the breakpoint as needed */
+    .image-container {
+      flex-direction: column;
+    }
   
+    .image-container img {
+      width: 80%; /* Adjust for smaller screens */
+      margin: 10px 0; /* Adjust margin for vertical stacking */
+    }
+  }
+
+  .about-title {
+    font-family: "Lucida Console", monospace;
+    font-size: 2rem;
+    margin-left: 25px; 
+  }
+
+  .contactLink {
+    color: rgb(28, 30, 190);
+  }
