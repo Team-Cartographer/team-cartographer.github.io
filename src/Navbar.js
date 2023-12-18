@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <img src={logo} alt="Team Cartographer Logo" className="navbar-logo" /> 
-      <Link to="/" className="site-title">
+      <Link to="/team-cartographer-site" className="site-title">
         Team Cartographer
       </Link>
       <ul>
