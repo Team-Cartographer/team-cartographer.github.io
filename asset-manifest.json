@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/team-cartographer-site/static/css/main.e1f36f33.css",
+    "main.js": "/team-cartographer-site/static/js/main.f90ea54d.js",
+    "static/js/787.bbec7f9b.chunk.js": "/team-cartographer-site/static/js/787.bbec7f9b.chunk.js",
+    "static/media/landing_photo.png": "/team-cartographer-site/static/media/landing_photo.b9f1d7070f2660897da4.png",
+    "static/media/logo512.png": "/team-cartographer-site/static/media/logo512.cb277db78378450cf31d.png",
+    "index.html": "/team-cartographer-site/index.html",
+    "main.e1f36f33.css.map": "/team-cartographer-site/static/css/main.e1f36f33.css.map",
+    "main.f90ea54d.js.map": "/team-cartographer-site/static/js/main.f90ea54d.js.map",
+    "787.bbec7f9b.chunk.js.map": "/team-cartographer-site/static/js/787.bbec7f9b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1f36f33.css",
+    "static/js/main.f90ea54d.js"
+  ]
+}
