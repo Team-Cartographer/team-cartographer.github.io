@@ -1,6 +1,5 @@
   
   .about-container {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;      /* Centers text content */
     display: flex;           /* Enables flexbox */
     justify-content: center; /* Centers flex items horizontally */
@@ -37,7 +36,6 @@
   }
 
   .about-title {
-    font-family: "Lucida Console", monospace;
     font-size: 2rem;
     margin-left: 25px; 
   }

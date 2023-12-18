@@ -20,7 +20,6 @@
 
 
 .Home-header {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   background-color: rgb(255, 255, 255);
   min-height: 100vh;
   display: flex;
@@ -34,3 +33,38 @@
 .Home-link {
   color: #61dafb;
 }
+
+.projects-heading {
+    justify-content: center;
+    display: flex;
+    align-items: center; /* This vertically centers the text with the image */
+    gap: 20px; /* This adds some space between the image and the text */
+    padding:10px;
+    text-decoration: underline;
+}
+
+.github-logo {
+  width: 40px;
+  height: auto;
+}
+
+.adc-header {
+  background-color: rgb(195, 195, 195);
+  background-size: contain;
+  border-radius: 10px; /* Adjust for desired roundness */
+  padding: 15px;
+  width: 650px;
+  height: auto;
+}
+
+.adc-header a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10;
+}
+
+.adc-header a:hover {
+  color: rgb(56, 56, 56)
+}
+
