@@ -54,11 +54,14 @@
   }
   
   .nav li:hover {
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
     border-radius: 8px;
     background-color: #777;
+    color: #333;
   }
 
   .nav a:hover {
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
     border-radius: 8px;
     background-color: #777;
   }

@@ -1,0 +1,49 @@
+/* Base styling for the dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the dropdown toggle button */
+.dropdown-toggle {
+  background-color: #333; /* Change as needed */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-style: bold;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; /* Rounded corners for the menu */
+  z-index: 1;
+  margin-top: 5px; /* Slight space between button and menu */
+  right: 0; /* Align the menu to the right of the button */
+}
+
+/* Style for each dropdown item */
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px; /* Rounded corners for items */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  border-bottom: 1px solid #ddd; /* Light grey border */
+}
+
+/* Hover effect for dropdown items */
+.dropdown-menu a:hover {
+  background-color: #333;
+  color: #ffffff;
+}

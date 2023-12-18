@@ -19,7 +19,7 @@ export default function Home() {
 
         <div className="project-section">
           <a href="https://github.com/Team-Cartographer/cartographerADC23"><b>NASA App Development Challenge</b></a>
-          <p>Won Top 3 Nationwide, and Presented App at Johnson Space Center</p>
+          <p>Top 3 Nationwide, Presented App at Johnson Space Center</p>
         </div>
         <br/><br/>
         <div className="project-section">
