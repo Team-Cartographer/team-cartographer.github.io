@@ -7,7 +7,7 @@ function Home() {
       <header className="Home-header">
         <img src={titleImage} alt="Title" className="landingImage"/>
         <p>
-          Welcome to the Team Cartographer Site!
+          Welcome to Team Cartographer!
         </p>
       </header>
     </div>
