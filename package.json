@@ -1,4 +1,5 @@
 {
+  "homepage": "https://team-cartographer.github.io/team-cartographer-site",
   "name": "tc-site-4",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +14,6 @@
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://team-cartographer.github.io/team-cartographer-site",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
