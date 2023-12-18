@@ -20,6 +20,7 @@
 
 
 .Home-header {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   background-color: rgb(255, 255, 255);
   min-height: 100vh;
   display: flex;

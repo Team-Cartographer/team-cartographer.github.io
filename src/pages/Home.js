@@ -5,10 +5,8 @@ function Home() {
   return (
     <div className="Home">
       <header className="Home-header">
+      <h1>Welcome to the Team Cartographer Website</h1>
         <img src={titleImage} alt="Title" className="landingImage"/>
-        <p>
-          Welcome to Team Cartographer!
-        </p>
       </header>
     </div>
   );
