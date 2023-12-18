@@ -13,7 +13,7 @@ export default function Navbar() {
       <Dropdown title="Links">
         <a href="https://github.com/Team-Cartographer">GitHub</a>
         <a href="https://www.linkedin.com/company/team-cartographer/">LinkedIn</a>
-        <Link className="AboutUs" to="/team-cartographer-site/about">About</Link>
+        <Link className="AboutUs" to="/team-cartographer-site/about">About Us</Link>
         <a href="mailto:teamcartographer@gmail.com">Contact Us</a>
       </Dropdown>
     </nav>
