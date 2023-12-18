@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/team-cartographer-site/static/css/main.23357b06.css",
-    "main.js": "/team-cartographer-site/static/js/main.562f1804.js",
+    "main.css": "/team-cartographer-site/static/css/main.4a9d5092.css",
+    "main.js": "/team-cartographer-site/static/js/main.90129d03.js",
     "static/js/787.bbec7f9b.chunk.js": "/team-cartographer-site/static/js/787.bbec7f9b.chunk.js",
+    "static/media/presentation.png": "/team-cartographer-site/static/media/presentation.fdbbf9795cc5428ed560.png",
     "static/media/public_presentation.png": "/team-cartographer-site/static/media/public_presentation.859f3823e2fc161a6925.png",
-    "static/media/presentation.png": "/team-cartographer-site/static/media/presentation.d85b2134c28508287eac.png",
     "static/media/landing_photo.png": "/team-cartographer-site/static/media/landing_photo.fedc3745edc9a10e6951.png",
     "static/media/logo512.png": "/team-cartographer-site/static/media/logo512.cb277db78378450cf31d.png",
     "index.html": "/team-cartographer-site/index.html",
-    "main.23357b06.css.map": "/team-cartographer-site/static/css/main.23357b06.css.map",
-    "main.562f1804.js.map": "/team-cartographer-site/static/js/main.562f1804.js.map",
+    "main.4a9d5092.css.map": "/team-cartographer-site/static/css/main.4a9d5092.css.map",
+    "main.90129d03.js.map": "/team-cartographer-site/static/js/main.90129d03.js.map",
     "787.bbec7f9b.chunk.js.map": "/team-cartographer-site/static/js/787.bbec7f9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23357b06.css",
-    "static/js/main.562f1804.js"
+    "static/css/main.4a9d5092.css",
+    "static/js/main.90129d03.js"
   ]
 }
