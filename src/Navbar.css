@@ -53,10 +53,12 @@
     padding: .55rem;
   }
   
-  .nav li.active {
-    background-color: #555;
-  }
-  
   .nav li:hover {
+    border-radius: 8px;
+    background-color: #777;
+  }
+
+  .nav a:hover {
+    border-radius: 8px;
     background-color: #777;
   }
