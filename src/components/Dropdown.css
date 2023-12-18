@@ -18,6 +18,10 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.dropdown-toggle:hover {
+  background-color: #959595;
+}
+
 /* Style for the dropdown menu */
 .dropdown-menu {
   display: block;
