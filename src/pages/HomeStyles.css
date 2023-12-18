@@ -1,9 +1,5 @@
-/* .Home {
-  text-align: center;
-} */
-
 .Home-logo {
-  height: 40vmin;
+  height: 20vmin; /* Adjusted for better scaling on mobile */
   pointer-events: none;
 }
 
@@ -14,57 +10,72 @@
   display: block;
   margin: 0 auto;
   max-height: 100%;
-  max-width: 60%;
-  min-width:360px;
+  max-width: 80%; /* Increased for mobile viewing */
+  min-width: 50vmin; /* Changed to viewport units */
 }
-
 
 .Home-header {
   background-color: rgb(255, 255, 255);
-  min-height: 100vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10rgb(50, 50, 50)min);
+  font-size: calc(4vmin); /* Adjusted for mobile */
   color: rgb(0, 0, 0);
 }
 
-.Home-link {
-  color: #61dafb;
-}
-
 .projects-heading {
-    justify-content: center;
-    display: flex;
-    align-items: center; /* This vertically centers the text with the image */
-    gap: 20px; /* This adds some space between the image and the text */
-    padding:10px;
-    text-decoration: underline;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Reduced gap for mobile */
+  padding: 5px; /* Reduced padding for mobile */
+  text-decoration: underline;
 }
 
 .github-logo {
-  width: 40px;
+  width: 5vmin; /* Adjusted for mobile */
   height: auto;
 }
 
-.adc-header {
+.project-section {
   background-color: rgb(195, 195, 195);
-  background-size: contain;
-  border-radius: 10px; /* Adjust for desired roundness */
-  padding: 15px;
-  width: 650px;
-  height: auto;
+  border-radius: 10px;
+  padding: 10px; /* Adjusted padding */
+  width: 60%; /* Made width responsive */
+  margin: 0 auto; /* Centered the section */
+  box-sizing: 10vh; /* To include padding in width */
 }
 
-.adc-header a {
+.project-section a {
   color: black;
-  font-size: 30px;
+  font-size: 4vmin; /* Adjusted font size */
   text-decoration: none;
-  padding: 10;
+  padding: 6px; /* Adjusted padding */
 }
 
-.adc-header a:hover {
-  color: rgb(56, 56, 56)
+.project-section a:hover {
+  color: rgb(82, 82, 82);
 }
 
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .Home-logo {
+    height: 20vmin;
+  }
+
+  .projects-heading {
+    font-size: 1vh;
+    flex-direction: row; /* Stack image and text vertically */
+    gap: 5px;
+  }
+
+  .github-logo {
+    width: 5vmin;
+  }
+
+  .project-section {
+    width: 80%; /* Increased width for smaller screens */
+  }
+}
