@@ -12,7 +12,8 @@ function App() {
           <div className="container">
             <Routes>
               <Route path="/" element={<Home/>} />
-              <Route path="/about" element={<About />} />
+              <Route path="/team-cartographer-site/" element={<Home/>} />
+              <Route path="/team-cartographer-site/about" element={<About />} />
 
               {/* FIXME: implement this <Route path="/contact" element={<ContactForm />} /> */}
 
