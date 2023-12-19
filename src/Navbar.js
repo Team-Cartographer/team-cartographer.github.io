@@ -10,6 +10,7 @@ export default function Navbar() {
       <Link to="/team-cartographer-site" className="site-title">
         Team Cartographer
       </Link>
+      
       <Dropdown title="Links">
         <a href="https://github.com/Team-Cartographer">GitHub</a>
         <a href="https://www.linkedin.com/company/team-cartographer/">LinkedIn</a>
